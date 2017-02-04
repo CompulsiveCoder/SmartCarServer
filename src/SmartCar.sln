@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WWW", "WWW\WWW.csproj", "{7F87C412-77F3-4407-A641-712524498EEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rccar.Core", "Core\rccar.Core.csproj", "{B6889395-7437-47F2-A507-76FD008D58FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartCar.Core", "Core\SmartCar.Core.csproj", "{B6889395-7437-47F2-A507-76FD008D58FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rccar.Core.Tests", "Core.Tests\rccar.Core.Tests.csproj", "{CFF6F6A5-BF04-462E-971C-5CD557447B83}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartCar.Core.Tests", "Core.Tests\SmartCar.Core.Tests.csproj", "{CFF6F6A5-BF04-462E-971C-5CD557447B83}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -5,8 +5,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{CFF6F6A5-BF04-462E-971C-5CD557447B83}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>webcamera.Core.Tests</RootNamespace>
-    <AssemblyName>webcamera.Core.Tests</AssemblyName>
+    <RootNamespace>SmartCar.Core.Tests</RootNamespace>
+    <AssemblyName>SmartCar.Core.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -38,14 +38,9 @@
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <None Include="testPythonScript.py">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Core\rccar.Core.csproj">
+    <ProjectReference Include="..\Core\SmartCar.Core.csproj">
       <Project>{B6889395-7437-47F2-A507-76FD008D58FA}</Project>
-      <Name>rccar.Core</Name>
+      <Name>SmartCar.Core</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>

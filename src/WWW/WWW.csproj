@@ -42,7 +42,6 @@
     <Content Include="web.config" />
     <Content Include="Default.aspx" />
     <Content Include="Send.aspx" />
-    <Content Include="default2.js" />
     <Content Include="default.js" />
   </ItemGroup>
   <ItemGroup>
