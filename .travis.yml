@@ -1,0 +1,12 @@
+sudo: required
+
+language: c#
+
+env:
+  - TEST_SUITE=Unit
+  - TEST_SUITE=Integration
+
+script:
+  - sh prepare.sh
+  - sh build.sh
+  - sh test.sh $TEST_SUITE
